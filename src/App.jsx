@@ -26,11 +26,11 @@ function App() {
           <img src={usuario.foto} alt="Foto" style={{width:"50%",borderRadius:"40px"}}/>
           <h2 style={{color: "#1a1a1a"}}>{usuario.Nombre} {usuario.Apellido}</h2>
           <div className='Linkedin' style={{display:"flex",justifyContent:"center",verticalAlign:"bottom"}}>
-            <img src={linkedin} alt="Linkedin" style={{width:"7%", height : "7%",placeSelf:"center"}}/>
+            <img src={linkedin} alt="Linkedin" style={{width:"7%", height : "7%",placeSelf:"center",marginRight:"5px"}}/>
             <a href={usuario.Link} target="_blank">Linkedin</a>
           </div>
           <div className='Correo' style={{display:"flex", justifyContent:"center"}}> 
-            <img src={gmail} alt="Gmail" style={{width:"7%", height : "7%",placeSelf:"center"}}/>
+            <img src={gmail} alt="Gmail" style={{width:"7%", height : "7%",placeSelf:"center",marginRight:"5px"}}/>
             <a href={"mailto:"+usuario.Correo} target="_blank">{usuario.Correo}</a>
           </div>
         </div>

@@ -1,7 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -12,7 +12,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
   justify-content: center;
   /* padding-left: 15%; */
@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   border: 0.2em solid #0348a6;
-  flex-basis: calc(33.33% - 30px);
+  /* flex-basis: calc(33.33% - 30px); */
   border-radius: 1em;
   width: fit-content;
   margin: 10px;
@@ -48,4 +48,5 @@
     padding: 1rem;
     /* flex-wrap: wrap; */
   }
+  
 }
