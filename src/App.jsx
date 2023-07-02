@@ -6,7 +6,7 @@ import f_Nico from './assets/Nicolás.jpg'
 import f_Pablo from './assets/Pablo.jpg'
 import f_Gus from './assets/Gustavo.jpg'
 import gmail from './assets/gmail.png'
-import linkedin from './assets/linkedin.png'
+import linkedin from './assets/Linkedin.png'
 
 function App() {
   const [count, setCount] = useState(0)
