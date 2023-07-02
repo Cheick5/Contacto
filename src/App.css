@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.Contenedor {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  justify-content: center;
+  /* padding-left: 15%; */
+  /* padding-right: 15%; */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 80%;
+}
+
+
+.Usuario {
+  display: flex;
+  flex-direction: column;
+  border: 0.2em solid #0348a6;
+  flex-basis: calc(33.33% - 30px);
+  border-radius: 1em;
+  width: fit-content;
+  margin: 10px;
+  align-items: center;
+  justify-content: middle;
+  align-content: middle;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  padding-bottom: 25px;
+  padding-top: 1rem;
+}
+
+
+@media screen and (max-width: 991px){
+  .Contenedor{
+    flex-direction: column;
+    padding: 1rem;
+    /* flex-wrap: wrap; */
+  }
+}
